@@ -4,11 +4,12 @@ import './Header.css';
 function Header() {   
   return (
     <header className= "header">
-      <img src={logo} alt="logo" />
       <nav>
           <ul>
             <li><NavLink to="/"  className={({ isActive }) => isActive ? "active" : ""}>Accueil</NavLink></li>
-            <li><NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>À propos</NavLink></li>
+            <li><NavLink to="/Portfolio" className={({ isActive }) => isActive ? "active" : ""}>Portfolio</NavLink></li>
+            <li><NavLink to="/Other" className={({ isActive }) => isActive ? "active" : ""}>Autre</NavLink></li>
+            <li><NavLink to="/Contact" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink></li>
           </ul>
         </nav>
     </header>

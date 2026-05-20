@@ -1,7 +1,8 @@
 
-import video from "../../images/Background.mp4"
+import video from "../../images/background_video.webm"
+import './background.css';
 
-function background(){
+function Background(){
     return(
       <video
         autoPlay
@@ -15,4 +16,4 @@ function background(){
     )
 }
 
-export default background;
+export default Background;

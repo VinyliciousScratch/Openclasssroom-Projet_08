@@ -1,0 +1,9 @@
+.homebody{
+  background-color: var(--background_color);
+  height: 2000px;
+  width: 100%;
+  animation: mainfade 0.25s ease forwards;
+
+}
+
+
