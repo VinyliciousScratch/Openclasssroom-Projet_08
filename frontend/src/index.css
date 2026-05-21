@@ -22,6 +22,23 @@ body {
   box-sizing: border-box;
 }
 
+main{
+  background-color: var(--background_color);
+  width: 100%;
+  animation: mainfade 0.25s ease forwards;
+  padding: 100px 16px 120px 16px;
+  box-sizing: border-box;
+}
+
+h1{
+  color: #f2cd8c;
+  -webkit-text-stroke: 1px #c79a4a;
+}
+
+p{
+  color: white;
+}
+
 @keyframes mainfade {
   from {
     background-color: var(--background_color_hidden);
