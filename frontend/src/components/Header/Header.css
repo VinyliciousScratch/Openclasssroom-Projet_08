@@ -51,3 +51,7 @@ li:has(a.active) a{
 li:active a {
   color: #3d321e;
 }
+
+li:hover {
+  text-shadow: 0 0 10px rgba(199, 154, 74, 0.45);
+}
