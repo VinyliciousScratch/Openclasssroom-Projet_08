@@ -3,7 +3,7 @@ import './Left_Section.css'
 
 function Left_Section({imgsrc, title ,text}) {
   return (
-    <section>
+    <section className='Left_section'>
         <div className='leftpart'>
             <img src={imgsrc} alt="Avatar"></img>
         </div>

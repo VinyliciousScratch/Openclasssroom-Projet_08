@@ -1,53 +1,54 @@
 
-.Left_section{
+.Right_section{
     display: flex;
     gap: 16px;
 }
 
-.Left_section img{
+.Right_section img{
     box-sizing: border-box;
     border: 10px solid #2a4a5a;
     max-width: 100%;
     height: auto;
 }
 
-.Left_section .leftpart{
-    width: 38.2%;
-}
-
-.Left_section .rightpart{
+.Right_section .leftpart{
     width: 61.8%;
-    text-align: left;
+    text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 }
 
+.Right_section .rightpart{
+    width: 38.2%;
+    
+}
 
-.Left_section p{
+
+.Right_section p{
     white-space: pre-line;
     line-height: 1.5;
 }
+
 @media (max-width: 750px) {
-    .Left_section{
+    .Right_section{
         flex-direction: column;
         align-items: center;
         
     }
 
 
-    .Left_section .leftpart{
+    .Right_section .leftpart{
+        text-align: center;
         width: 100%;
     }
 
-    .Left_section .rightpart{
-        text-align: center;
+    .Right_section .rightpart{
         width: 100%;
 
         
     }
-    
 
 
 }
