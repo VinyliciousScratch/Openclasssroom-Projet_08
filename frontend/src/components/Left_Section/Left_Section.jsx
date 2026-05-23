@@ -8,8 +8,8 @@ function Left_Section({imgsrc, title ,text}) {
             <img src={imgsrc} alt="Avatar"></img>
         </div>
         <div className='rightpart'>
-            <h1>{title}</h1>
-            <p>{text.join("\n")}</p>
+            <h2>{title}</h2>
+            <p>{text}</p>
         </div>
     </section>
   );

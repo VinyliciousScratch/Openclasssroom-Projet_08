@@ -5,8 +5,8 @@ function Right_Section({imgsrc, title ,text}) {
   return (
     <section className='Right_section'>
         <div className='leftpart'>
-            <h1>{title}</h1>
-            <p>{text.join("\n")}</p>
+            <h2>{title}</h2>
+            <p>{text}</p>
         </div>
         <div className='rightpart'>
             <img src={imgsrc} alt="Avatar"></img>

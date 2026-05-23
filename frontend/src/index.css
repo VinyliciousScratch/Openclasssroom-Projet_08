@@ -33,7 +33,7 @@ main{
   box-sizing: border-box;
 }
 
-label, h1{
+label, h1, h2{
   color: #f2cd8c;
   -webkit-text-stroke: 1px #c79a4a;
 }

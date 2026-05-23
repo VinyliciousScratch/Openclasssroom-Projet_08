@@ -4,6 +4,10 @@
     gap: 16px;
 }
 
+.Left_section h2{
+    font-size: 32px;
+}
+
 .Left_section img{
     box-sizing: border-box;
     border: 10px solid #2a4a5a;
@@ -13,6 +17,10 @@
 
 .Left_section .leftpart{
     width: 38.2%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+
 }
 
 .Left_section .rightpart{

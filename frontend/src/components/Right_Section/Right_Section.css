@@ -4,6 +4,11 @@
     gap: 16px;
 }
 
+.Right_section h2{
+    font-size: 32px;
+}
+
+
 .Right_section img{
     box-sizing: border-box;
     border: 10px solid #2a4a5a;
@@ -22,6 +27,10 @@
 
 .Right_section .rightpart{
     width: 38.2%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+
     
 }
 
