@@ -15,7 +15,23 @@
     "title_text_3": "Réalisation et perspectives",
 
     "project_1_text_3": ["Le projet a abouti à une application moderne, performante et responsive, intégrant des composants interactifs comme une galerie d’images et des menus Collapse animés, tout en améliorant la structuration globale du code pour faciliter son évolution.",
-"\nLien du projet GitHub : https://github.com/VinyliciousScratch/Openclasssroom-Projet_05"]
+"\nLien du projet GitHub : https://github.com/VinyliciousScratch/Openclasssroom-Projet_05"],
+
+
+    "title_project_2": "Booki — Projet d’intégration HTML/CSS responsive",
+
+    "project_2_text_1": ["Développement de l’interface du site Booki, une plateforme de recherche d’hébergements et d’activités touristiques, à partir de maquettes fournies par l’équipe design.",
+" Le projet s’inscrivait dans un contexte de collaboration entre les équipes produit, design et développement afin de créer une interface moderne, responsive et accessible adaptée aux différents supports numériques."],
+
+    "project_2_text_2": ["L’intégration du projet a été réalisée en HTML5 et CSS3 en respectant une structure de fichiers imposée ainsi que les maquettes desktop, tablette et mobile fournies sur Figma.",
+" L’utilisation de Flexbox, des Media Queries et de Git/GitHub a permis de développer une interface responsive tout en assurant un suivi rigoureux du versionnement.",
+" L’enjeu principal était de reproduire fidèlement le design tout en garantissant une expérience utilisateur fluide et une bonne organisation du code."],
+
+
+    "project_2_text_3": ["Le projet a permis de concevoir une interface responsive et ergonomique conforme aux attentes de l’équipe technique et design, avec une adaptation optimale sur plusieurs tailles d’écran.",
+    "Cette réalisation a renforcé mes compétences en intégration web, en structuration HTML/CSS et en gestion de versions avec Git.",
+"\nLien du projet GitHub : https://github.com/VinyliciousScratch/Openclasssroom-Projet_02"]
+
 
 
 }
