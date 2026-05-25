@@ -33,13 +33,22 @@ main{
   box-sizing: border-box;
 }
 
-label, h1, h2{
+label, h2{
   color: #f2cd8c;
   -webkit-text-stroke: 1px #c79a4a;
 }
 
+h1{
+  color: #f2cd8c;
+  -webkit-text-stroke: 1px #c79a4a;
+  font-size: clamp(32px, 4vw, 64px);
+}
+
+
 p{
   color: white;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 @keyframes mainfade {

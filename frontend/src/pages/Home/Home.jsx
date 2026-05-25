@@ -8,6 +8,7 @@ import data from '../../data/home.json'
 function Home() {
   return (
     <main className='homebody'>
+      <h1>Mon profil</h1>
       <LeftSection imgsrc ={Avatar} title={data.title} text={data.text}></LeftSection>
       <RightSection imgsrc ={skillimg} title={data.title2} text={data.text2}></RightSection>
     </main>

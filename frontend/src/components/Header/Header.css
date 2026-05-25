@@ -33,7 +33,7 @@ li {
 }
 
 li a {
-  font-size : 32px ;
+  font-size : clamp(14px, 2vw, 32px); ;
   text-decoration: none;
   color: #8d7140;
 }
