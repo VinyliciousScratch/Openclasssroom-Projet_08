@@ -1,0 +1,11 @@
+{
+  "homepage":"https://VinyliciousScratch.github.io/developpeurwebportfolio/",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d dist"
+  }
+}
